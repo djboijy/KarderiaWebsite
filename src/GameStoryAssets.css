@@ -1,0 +1,28 @@
+﻿.imageType1 {
+    border-radius: 20px;
+    border: 10px solid blue;
+    width: 600px;
+    height: 400px;
+    float: left;
+    margin: 20px;
+}
+
+.imageType2 {
+    border-radius: 20px;
+    border: 10px solid blue;
+    width: 600px;
+    height: 400px;
+    float: right;
+    margin: 60px;
+}
+
+
+.marginTextSpace {
+    margin: 45px;
+}
+
+.image-description {
+    margin-top: 10px; 
+    font-size: 16px; 
+    color: #555; 
+}

@@ -1,0 +1,67 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.pixelated-header {
+    animation: fadeIn 1s ease-in;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.pixelated-header h1 {
+    font-size: 4rem;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    animation: cameraShake 10s infinite;
+}
+
+@keyframes cameraShake {
+    0% {
+        transform: translateX(0) translateY(0);
+        text-shadow: 0 0 3px white, 0 0 5px #5dc629, 0 0 20px white;
+    }
+    10% {
+        transform: translateX(-5px) translateY(-5px);
+        text-shadow: 0 0 5px #bc5656, 0 0 10px white, 0 0 15px #6a00ff;
+    }
+    20% {
+        transform: translateX(5px) translateY(5px);
+        text-shadow: 0 0 5px white, 0 0 10px #611d1d, 0 0 15px red;
+    }
+    30% {
+        transform: translateX(-5px) translateY(5px);
+        text-shadow: 0 0 5px #bc5656, 0 0 10px #2ed514, 0 0 15px red;
+    }
+    40% {
+        transform: translateX(5px) translateY(-5px);
+        text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px red;
+    }
+    50% {
+        transform: translateX(0) translateY(0);
+        text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    }
+    60% {
+        transform: translateX(-5px) translateY(-5px);
+        text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px red;
+    }
+    70% {
+        transform: translateX(5px) translateY(5px);
+        text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px red;
+    }
+    80% {
+        transform: translateX(-5px) translateY(5px);
+        text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px red;
+    }
+    90% {
+        transform: translateX(5px) translateY(-5px);
+        text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px red;
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+        text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    }
+}
