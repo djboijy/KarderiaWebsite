@@ -1,4 +1,4 @@
-﻿// src/GameStory.js
+// src/GameStory.js
 import React from 'react';
 import './GameStoryAssets.css';
 import Image1 from './assets/karderiaImage1.png';
@@ -35,8 +35,8 @@ const GameStory = () => {
                 working cards being drawn. After that, I made a first-move chooser after and the 
                 field between the cards. There were 2 lists: first for player cards and second for 
                 AI cards. The cards were generated randomly, like it is now. I added an enum too:
-                thats for card types. Next I added move handling: each move you and AI are given 
-                +10 mana and the moves are changing. I made seperate classes for both AI and the player,
+                that's for card types. Next I added move handling: each move you and AI are given 
+                +10 mana and the moves are changing. I made separate classes for both AI and the player,
                 featuring current mana. For player I added the "CharacterName" variable, which is for 
                 now handling the name changing system. To be honest I didn't plan to do anything with it
                 before, but now it's all set. The next step was rewriting the battle field and card displaying
@@ -59,23 +59,23 @@ const GameStory = () => {
             <p className="MediumText">
                 Here are some footage screenshots from the game's code!
             </p> <br/> <br/>
-            <img src={Image1} className="imageType1" />
-            <img src={Image2} className="imageType2" />
-            <img src={Image3} className="imageType1" />
-            <img src={Image4} className="imageType2" />
-            <img src={Image5} className="imageType1" />
-            <img src={Image6} className="imageType2" />
-            <img src={Image7} className="imageType1" />
-            <img src={Image8} className="imageType2" />
-            <img src={Image9} className="imageType1" />
-            <img src={Image10} className="imageType2" />
-            <img src={Image11} className="imageType1" />
-            <img src={Image12} className="imageType2" />
-            <img src={Image13} className="imageType1" />
-            <img src={Image14} className="imageType2" />
-            <img src={Image15} className="imageType1" />
-            <img src={Image16} className="imageType2" />
-            <img src={Image17} className="imageType1" />
+            <img src={Image1} alt="" className="imageType1" />
+            <img src={Image2} alt="" className="imageType2" />
+            <img src={Image3} alt="" className="imageType1" />
+            <img src={Image4} alt="" className="imageType2" />
+            <img src={Image5} alt="" className="imageType1" />
+            <img src={Image6} alt="" className="imageType2" />
+            <img src={Image7} alt="" className="imageType1" />
+            <img src={Image8} alt="" className="imageType2" />
+            <img src={Image9} alt="" className="imageType1" />
+            <img src={Image10} alt="" className="imageType2" />
+            <img src={Image11} alt="" className="imageType1" />
+            <img src={Image12} alt="" className="imageType2" />
+            <img src={Image13} alt="" className="imageType1" />
+            <img src={Image14} alt="" className="imageType2" />
+            <img src={Image15} alt="" className="imageType1" />
+            <img src={Image16} alt="" className="imageType2" />
+            <img src={Image17} alt="" className="imageType1" />
         </div>
     );
 };

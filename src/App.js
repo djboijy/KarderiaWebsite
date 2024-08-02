@@ -1,8 +1,6 @@
 // src/App.js
 import React, { useState } from 'react';
 import './App.css';
-import MainPage from './MainPage';
-import MainPageText from './MainPageText';
 import AboutUs from './AboutUs';
 import Download from './Download';
 import GameStory from './GameStory';

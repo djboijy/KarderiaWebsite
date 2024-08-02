@@ -1,16 +1,9 @@
-﻿import React from 'react';
+import React from 'react';
 import './PixelatedHeader.css';
 
 const MainPage = () => {
 
     const Header = () => {
-        const headerStyle = {
-            color: "white",
-            padding: "10px",
-            fontFamily: "Sans-Serif",
-            float: "center",
-            textAlign: "center"
-        };
 
         return (
             <div>

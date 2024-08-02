@@ -1,4 +1,4 @@
-﻿// src/Download.js
+// src/Download.js
 import React from 'react';
 import DownloadButton from './DownloadButton';
 

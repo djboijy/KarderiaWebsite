@@ -1,4 +1,4 @@
-﻿// src/Other.js
+// src/Other.js
 import React from 'react';
 
 const Other = () => {
