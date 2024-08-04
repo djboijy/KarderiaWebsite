@@ -14,10 +14,6 @@ import Image10 from './assets/karderiaImage10.png';
 import Image11 from './assets/karderiaImage11.png';
 import Image12 from './assets/karderiaImage12.png';
 import Image13 from './assets/karderiaImage13.png';
-import Image14 from './assets/karderiaImage14.png';
-import Image15 from './assets/karderiaImage15.png';
-import Image16 from './assets/karderiaImage16.png';
-import Image17 from './assets/karderiaImage17.png';
 
 const GameStory = () => {
     return (
@@ -72,10 +68,6 @@ const GameStory = () => {
             <img src={Image11} alt="A file displaying something from my game!" className="imageType1" />
             <img src={Image12} alt="A file displaying something from my game!" className="imageType2" />
             <img src={Image13} alt="A file displaying something from my game!" className="imageType1" />
-            <img src={Image14} alt="A file displaying something from my game!" className="imageType2" />
-            <img src={Image15} alt="A file displaying something from my game!" className="imageType1" />
-            <img src={Image16} alt="A file displaying something from my game!" className="imageType2" />
-            <img src={Image17} alt="A file displaying something from my game!" className="imageType1" />
         </div>
     );
 };
