@@ -59,23 +59,23 @@ const GameStory = () => {
             <p className="MediumText">
                 Here are some footage screenshots from the game's code!
             </p> <br/> <br/>
-            <img src={Image1} alt="" className="imageType1" />
-            <img src={Image2} alt="" className="imageType2" />
-            <img src={Image3} alt="" className="imageType1" />
-            <img src={Image4} alt="" className="imageType2" />
-            <img src={Image5} alt="" className="imageType1" />
-            <img src={Image6} alt="" className="imageType2" />
-            <img src={Image7} alt="" className="imageType1" />
-            <img src={Image8} alt="" className="imageType2" />
-            <img src={Image9} alt="" className="imageType1" />
-            <img src={Image10} alt="" className="imageType2" />
-            <img src={Image11} alt="" className="imageType1" />
-            <img src={Image12} alt="" className="imageType2" />
-            <img src={Image13} alt="" className="imageType1" />
-            <img src={Image14} alt="" className="imageType2" />
-            <img src={Image15} alt="" className="imageType1" />
-            <img src={Image16} alt="" className="imageType2" />
-            <img src={Image17} alt="" className="imageType1" />
+            <img src={Image1} alt="A file displaying something from my game!" className="imageType1" />
+            <img src={Image2} alt="A file displaying something from my game!" className="imageType2" />
+            <img src={Image3} alt="A file displaying something from my game!" className="imageType1" />
+            <img src={Image4} alt="A file displaying something from my game!" className="imageType2" />
+            <img src={Image5} alt="A file displaying something from my game!" className="imageType1" />
+            <img src={Image6} alt="A file displaying something from my game!" className="imageType2" />
+            <img src={Image7} alt="A file displaying something from my game!" className="imageType1" />
+            <img src={Image8} alt="A file displaying something from my game!" className="imageType2" />
+            <img src={Image9} alt="A file displaying something from my game!" className="imageType1" />
+            <img src={Image10} alt="A file displaying something from my game!" className="imageType2" />
+            <img src={Image11} alt="A file displaying something from my game!" className="imageType1" />
+            <img src={Image12} alt="A file displaying something from my game!" className="imageType2" />
+            <img src={Image13} alt="A file displaying something from my game!" className="imageType1" />
+            <img src={Image14} alt="A file displaying something from my game!" className="imageType2" />
+            <img src={Image15} alt="A file displaying something from my game!" className="imageType1" />
+            <img src={Image16} alt="A file displaying something from my game!" className="imageType2" />
+            <img src={Image17} alt="A file displaying something from my game!" className="imageType1" />
         </div>
     );
 };
