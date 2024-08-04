@@ -42,7 +42,7 @@ function App() {
                 {renderPage()} {}
                 <div className="translation-container">
                     <div className="translation-text" onClick={() => console.log('Translate to English')}>Eng</div>
-                    <div className="translation-text" onClick={() => console.log('Translate to Ukrainian')}>Ukr</div>
+                    <div className="translation-text" onClick={() => console.log('Translate to Ukrainian')}>Ukr(Soon)</div>
                 </div>
             </div>
         </div>
