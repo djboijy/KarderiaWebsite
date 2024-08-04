@@ -1,4 +1,4 @@
-
+/* General container styling */
 .app-container {
   min-height: 100vh;
   margin: 0;
@@ -11,7 +11,7 @@
   justify-content: center;
 }
 
-
+/* Keyframes for fade-in animation */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -21,7 +21,7 @@
   }
 }
 
-
+/* Main app styling */
 .App {
   text-align: center;
   border: none;
@@ -31,7 +31,7 @@
   flex: 1;
 }
 
-
+/* Menu styling */
 .menu {
   background-color: grey;
   height: 60px;
@@ -42,32 +42,33 @@
   border: 50px solid #ccc;
 }
 
-
+/* General button styling */
 .button, .button1, .button2, .button3, .button4, .button5 {
   background-color: #61dafb;
   border: 2px solid #180c80;
   border-radius: 5px;
   color: white;
-  padding: 15px 30px; 
-  font-size: 20px; 
-  margin: 10px;
+  padding: 15px 30px; /* Larger padding for consistency */
+  font-size: 20px; /* Uniform font size */
+  margin: 10px; /* Space between buttons */
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-family: 'Press Start 2P', cursive;
   text-align: center;
-  display: inline-block; 
+  display: inline-block; /* Ensures consistent sizing */
 }
 
+/* Specific button styles for larger text */
 .button1, .button2, .button3, .button4, .button5 {
-  font-size: 25px; 
+  font-size: 25px; /* Consistent larger text size */
 }
 
-
+/* Hover effect for buttons */
 .button:hover, .button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover {
   background-color: #21a1f1;
 }
 
-
+/* Translation container styling */
 .translation-container {
   position: fixed;
   bottom: 0;
@@ -80,21 +81,22 @@
   align-items: center;
   padding: 10px;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
-  z-index: 1000; 
+  z-index: 1000; /* Ensure it is above other content */
 }
 
-
+/* Translation text styling */
 .translation-text {
   margin: 0 15px;
   cursor: pointer;
   font-size: 18px;
 }
 
+/* Hover effect for translation text */
 .translation-text:hover {
   text-decoration: underline;
 }
 
-
+/* Download button styling */
 .download-button {
   width: 1300px;
   height: 100px;
@@ -105,7 +107,7 @@
   cursor: copy;
 }
 
-
+/* Keyframes for logo spinning animation */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -115,7 +117,7 @@
   }
 }
 
-
+/* Apply spinning animation if motion is not reduced */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
