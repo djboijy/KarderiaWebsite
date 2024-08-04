@@ -20,11 +20,11 @@ const DownloadButton = () => {
     };
 
     return (
-        <button onClick={handleDownload} className="download-button">
-            Karderia Presentation(on Ukrainian) - Not Done At All
-        </button>, <br/>,
         <button onClick={handleGameDownload} className="download-button">
             Karderia Game!!! (.zip archive, for PC only)
+        </button>,
+        <button onClick={handleDownload} className="download-button">
+            Karderia Presentation(on Ukrainian) - Not Done At All
         </button>
     );
 };
