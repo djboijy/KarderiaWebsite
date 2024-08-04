@@ -11,7 +11,8 @@ const MainPageText = () => {
         }
         return (
             <p style={TextStyle}>
-                Karderia is a game for those who love minimalism. In this game you are given 3 
+                Karderia is a game for those who love minimalism. The game is still in development and will be
+                published very soon. The game is written on C# only and is 2D. In this game you are given 3 
                 random cards, each having a unique type and skills. First move is being decided
                 randomly. For now, the game can be played against the AI only. When it's your
                 move, join the battle by placing a card on the table or getting one more
@@ -31,7 +32,8 @@ const MainPageText = () => {
                 <NormalPageSmallText />
             </p>
             <br/><br/><br/>
-            <div className="MediumText">Good luck! Click the buttons above to read more about the game.</div>
+            <div className="MediumText">Good luck! Click the buttons above to read more about the game. It's my old game
+            I used to work on when I just started learning C#. And there was a chance to finish it! And it's done.</div>
         </div>
     );
     

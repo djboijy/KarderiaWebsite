@@ -41,6 +41,9 @@ const Other = () => {
             <p className="SmallText">
                 I will think about it later.
             </p>
+            <p className="MediumText">
+                Report bugs that occur when the game is running on our email: kinsoobiao@gmail.com!
+            </p>
         </div>
     );
 };

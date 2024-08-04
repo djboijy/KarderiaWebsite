@@ -12,6 +12,8 @@ const Credits = () => {
                 Game Developer: Boijy <br/>
                 Website Developer: Boijy<br/>
                 Website made on: React<br/>
+                <br/><br/>
+                GAME'S RELEASE DATE: 4th August
             </p>
         </div>
     )
