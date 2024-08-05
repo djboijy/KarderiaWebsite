@@ -13,8 +13,8 @@ const Download = () => {
             <h1 className="MediumText">
                 You can download everything useful for the game here! Cheers!
                 <br/> <br/>
-                <DownloadButton />
             </h1>
+            <DownloadButton />
         </div>
     );
 };

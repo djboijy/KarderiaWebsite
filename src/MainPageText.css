@@ -1,1 +1,47 @@
+.SmallText {
+    font-family: 'Roboto', sans-serif; /* Modern, clean font */
+    font-size: 1.5rem; /* Larger text size for readability */
+    color: #3498db; /* Cool blue color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+    line-height: 1.6; /* Improved readability */
+    letter-spacing: 0.5px; /* Slight spacing between letters */
+    margin: 0 0 20px; /* Margin for spacing below */
+    padding: 0; /* No padding */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
 
+.SmallText:hover {
+    color: #e74c3c; /* Change color on hover for a cool effect */
+}
+
+.MediumText {
+    font-family: 'Courier New', monospace; /* Different font for a unique look */
+    font-size: 4rem; /* Much larger text size for dramatic impact */
+    color: #ff0081; /* Vibrant pink text color */
+    text-shadow:
+            0 0 10px #ff0081, /* Pink glow */
+            0 0 20px #ff0081, /* Pink glow */
+            0 0 30px #ff0081, /* Pink glow */
+            0 0 40px #00ff99, /* Green glow */
+            0 0 50px #00ff99, /* Green glow */
+            0 0 60px #00ff99, /* Green glow */
+            0 0 70px #00ff99; /* Green glow */
+    letter-spacing: 2px; /* Increased spacing for a bold look */
+    margin: 0; /* No margin */
+    padding: 0; /* No padding */
+    text-transform: uppercase; /* Uppercase for dramatic effect */
+    font-weight: bold; /* Bold font weight for emphasis */
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth color and shadow transition on hover */
+}
+
+.MediumText:hover {
+    color: #ffffff; /* Change text color to white on hover */
+    text-shadow:
+            0 0 15px #ff0081, /* Pink glow on hover */
+            0 0 30px #ff0081, /* Pink glow on hover */
+            0 0 45px #ff0081, /* Pink glow on hover */
+            0 0 60px #00ff99, /* Green glow on hover */
+            0 0 80px #00ff99, /* Green glow on hover */
+            0 0 100px #00ff99, /* Green glow on hover */
+            0 0 120px #00ff99; /* Green glow on hover */
+}
