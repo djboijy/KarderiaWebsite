@@ -5,12 +5,8 @@ const MainPageText = () => {
     
     const NormalPageSmallText = () => 
     {
-        const TextStyle = {
-            color: "black",
-            textAlign: "center"
-        }
         return (
-            <p style={TextStyle}>
+            <p style="SmallText">
                 Karderia is a game for those who love minimalism. The game is still in development and will be
                 published very soon. The game is written on C# only and is 2D. In this game you are given 3 
                 random cards, each having a unique type and skills. First move is being decided
